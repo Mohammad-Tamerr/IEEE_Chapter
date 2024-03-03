@@ -1,0 +1,29 @@
+Cc = arm-none-eabi-gcc
+CFLAGS = -c -mcpu=$(ACH) -std-gnull -mthumb
+LDFLAGS = -T linker.ld -nostdlib -Wl,-MAP=executble.map
+ACH = cortex-m4
+
+main.o:main.c
+     $(CC) $(CFLAGS) $^ -o $0
+
+GPIO_Prog.o: GPIO_Prog. C
+     $(CC) $(CFLAGS) $^ -o $0
+
+RCC_Prog-o: RCC_Prog. c
+     $(CC) $(CFLAGS) $^ -o $0
+
+SysTick_Prog.0:SysTick_Prog.c
+     $(CC) $(CFLAGS) $^ -o $0
+
+startup.oistartup.c
+    $(CC) $(LDFLAGS) $^ -o $0
+
+executble.elf: main.o GPIO_Prog.o RCC_Prog. SysTick_Prog.0 startup.o
+     $(CC) $(CFLAGS) $^ -o $0
+
+all:main.o GPIO_Prog.o RCC_Prog.0 SysTick_Prog.o startup.o executble.elf
+
+Progamm:
+      openocd -f board/st_nucleo_f4.cfg
+clean:
+      rm -rf *.o
