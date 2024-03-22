@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1699331582 source:e:\ds\linked list\19_lecture_19 data structures\single linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Types.h"
+
+1699331494 e:\ds\linked list\19_lecture_19 data structures\single linked list\linkedlist.h
+	"Types.h"
+
+1699320675 e:\ds\linked list\19_lecture_19 data structures\single linked list\types.h
+
+1699333134 source:e:\ds\linked list\19_lecture_19 data structures\single linked list\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+
