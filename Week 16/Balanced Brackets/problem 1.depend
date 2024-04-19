@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1713533654 source:d:\ieee_chapter\week 16\problem 1\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+

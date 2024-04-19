@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1699036364 source:e:\ds\stack\stack data structure\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Stack.h"
+
+1699036295 e:\ds\stack\stack data structure\stack.h
+	<stdlib.h>
+	"Types.h"
+
+1699036295 e:\ds\stack\stack data structure\types.h
+
+1699036295 source:e:\ds\stack\stack data structure\stack.c
+	"Stack.h"
+
