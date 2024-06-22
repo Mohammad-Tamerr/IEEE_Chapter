@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1719015652 source:d:\ieee_chapter\bank database\bank_database.c
+	"Types.h"
+	"Bank_Database.h"
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+
+1719015652 source:d:\ieee_chapter\bank database\main.c
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+	"Types.h"
+	"Bank_Database.h"
+
+1719006987 d:\ieee_chapter\bank database\types.h
+
+1719015254 d:\ieee_chapter\bank database\bank_database.h
+
